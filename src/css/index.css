@@ -1,0 +1,107 @@
+body,html{
+	overflow-x: hidden;
+}
+a{
+	color: rgba(0,0,0,0.5);
+}
+a:hover{
+	color: #563D7C;
+}
+p{
+	margin: 0;
+}
+.head-top {
+	height: 2px;
+	background-color: #563D7C;
+}
+.navbar-brand {
+	font-family: Microsoft YaHei;
+	font-weight: 800;
+	font-size: 1.5em;
+}
+.nav-item {
+	font-size: 1.2em;
+}
+.navbar-nav .active>.nav-link{
+	color: #563D7C !important;
+}
+
+#pills-tab .nav-link{
+	font-weight: bold;
+	color: rgba(0,0,0,0.5);
+}
+#pills-tab .nav-link:hover{
+	color: #563D7C;
+}
+#pills-tab .nav-link.active{
+	color: #ffffff;
+	background-color: #563D7C;
+}
+
+.carousel-inner > .carousel-item > img {
+	object-fit: cover;
+	height: 400px;
+}
+.blockquote>p{
+	font-size: 0.8em;
+}
+.blockquote>footer{
+	font-size: 0.5em;
+}
+.bg-gray{
+	background-color: #eee;
+}
+.border-light{
+	border-color: #eee !important;
+}
+
+.my-close{
+	padding: 1rem 1rem;
+    margin: -1rem 1rem -1rem auto;
+}
+
+.collapse>.nav-item>.nav-link>span>i {
+	margin-left: 1rem;
+}
+
+.body-right>.card>.card-header{
+	color: #563D7C;
+}
+.body-right>.card>.card-body{
+	position: relative;
+}
+.body-right>.card>.card-body:hover{
+	background-color: #f8f9fa;
+	color: #563D7C;
+}
+
+
+
+@media (max-width: 830px){
+	.nav-item {
+		font-size: 0.9em;
+	}
+}
+
+@media (max-width: 768px){
+	.nav-item {
+		font-size: 1.1em;
+	}
+	#pills-tab {
+		padding-left:  10px;
+		padding-right: 10px;
+	}
+}
+
+@media (max-width: 400px){
+	#pills-tab>a {
+		padding: 0.5rem 0.8rem;
+	}
+}
+
+@media (min-width: 768px){
+	#pills-tab>a {
+		height: 3rem;
+		line-height: 2rem;
+	} 
+}
